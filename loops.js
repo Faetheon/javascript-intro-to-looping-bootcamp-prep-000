@@ -13,7 +13,7 @@ function whileLoop (n) {
     if(n > 0) {
       console.log(n);
       n--;
-    } else {
+    } else if(n === 0) {
       return "done";
     }
   }
